@@ -63,6 +63,7 @@ On avance de **64 en 64** dans le reseau.
 
 ## Methode 2 — Decoupe asymetrique
 
+# RAPPEL le decoupage asymetrique permet d'optimiser la place dans un reseau
 Chaque sous-reseau a une taille adaptee a son pole.
 Regle : on trie du plus grand au plus petit avant de commencer.
 
