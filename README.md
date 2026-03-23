@@ -1,8 +1,8 @@
 # Exercice de Sous-réseautage — Société fictive à 4 pôles
-Réseau de base : 172.16.1.0/24
-Objectif : Découper le réseau en sous-réseaux adaptés aux 4 pôles de l'entreprise
+**Réseau de base** : 172.16.1.0/24
+**Objectif** : Découper le réseau en sous-réseaux adaptés aux 4 pôles de l'entreprise
 
-Présentation de l'entreprise
+# Présentation de l'entreprise
 Pôle	Nombre de machines
 Informatique	50
 Administratif	20
