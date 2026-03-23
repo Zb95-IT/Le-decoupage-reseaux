@@ -32,7 +32,7 @@ Le pôle le plus grand impose la taille : 50 machines → bloc de 64 → /26.
 
 On avance de 64 en 64 dans le réseau.
 
-Calcul des sous-réseaux
+# Calcul des sous-réseaux
 Pôle	Adresse réseau	Broadcast	Plage d'hôtes	Machines	Places libres gaspillées
 Informatique	172.16.1.0/26	172.16.1.63	.1 → .62	50/62	12
 Développement	172.16.1.64/26	172.16.1.127	.65 → .126	12/62	50 
@@ -40,6 +40,6 @@ Administratif	172.16.1.128/26	172.16.1.191	.129 → .190	20/62	42 ❌
 Technicien	172.16.1.192/26	172.16.1.255	.193 → .254	15/62	47 ❌
 Total gaspillé : 151 adresses sur 254 → plus de la moitié inutilisée ❌
 
-📊 Méthode 2 — Découpage Asymétrique ✅
+ Méthode 2 — Découpage Asymétrique 
 En asymétrique, chaque sous-réseau a une taille adaptée à son pôle.
 **Règle fondamentale : on trie du plus grand au plus pet
