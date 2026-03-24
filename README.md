@@ -1,5 +1,5 @@
 
-# Sous-réseautage IPv4 — Société fictive à 4 pôles
+# Sous-réseautage IPv4 -Société fictive à 4 pôles
 
 **Réseau de base :** `172.16.1.0/24`
 
@@ -43,7 +43,7 @@ On choisit la puissance de 2 immediatement superieure au nombre de machines + 2.
 
 ---
 
-## Methode 1 — Decoupe symetrique
+## Methode 1 - Decoupe symetrique
 
 Tous les sous-reseaux ont la meme taille. Le pole le plus grand impose la taille :
 50 machines -> bloc de 64 -> `/26`
@@ -61,7 +61,7 @@ On avance de **64 en 64** dans le reseau.
 
 ---
 
-## Methode 2 — Decoupe asymetrique
+## Methode 2 - Decoupe asymetrique
 
 ### RAPPEL : le découpage asymetrique permet d'optimiser la place dans un réseau
 Chaque sous-reseau a une taille adaptee a son pole.
@@ -78,5 +78,5 @@ Regle : on trie du plus grand au plus petit avant de commencer.
 
 ### Calcul des sous-reseaux
 
-**Pole Informatique — /26 (bloc de 64)**
+**Pole Informatique - /26 (bloc de 64)**
 
