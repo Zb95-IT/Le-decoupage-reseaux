@@ -69,12 +69,16 @@ Regle : on trie du plus grand au plus petit avant de commencer.
 
 ### Selection des blocs
 
-| Pole | Machines | Besoin reel | Bloc choisi | Masque |
-|---|---|---|---|---|
-| Informatique | 50 | 52 | 2^6 = 64 | /26 |
-| Administratif | 20 | 22 | 2^5 = 32 | /27 |
-| Technicien | 15 | 17 | 2^5 = 32 | /27 |
-| Developpement | 12 | 14 | 2^4 = 16 | /28 |
+| Pole | Adresse reseau | Broadcast | Plage d'hotes | Masque | Machines | Gaspillage |
+|---|---|---|---|---|---|---|
+| Informatique | 172.16.1.0 | 172.16.1.63 | .1 -> .62 | /26 | 50 / 62 | 12 |
+| Administratif | 172.16.1.64 | 172.16.1.95 | .65 -> .94 | /27 | 20 / 30 | 10 |
+| Technicien | 172.16.1.96 | 172.16.1.127 | .97 -> .126 | /27 | 15 / 30 | 15 |
+| Developpement | 172.16.1.128 | 172.16.1.143 | .129 -> .142 | /28 | 12 / 14 | 2 |
+
+**Total gaspille : 39 adresses**
+
+Adresses .144 a .255 = 112 adresses libres pour de futurs services.
 
 ### Calcul des sous-reseaux
 
