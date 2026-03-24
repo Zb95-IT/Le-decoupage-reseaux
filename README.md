@@ -69,6 +69,15 @@ Regle : on trie du plus grand au plus petit avant de commencer.
 
 ### Selection des blocs
 
+| Pole | Machines | Besoin reel | Bloc choisi | Masque |
+|---|---|---|---|---|
+| Informatique | 50 | 52 | 2^6 = 64 | /26 |
+| Administratif | 20 | 22 | 2^5 = 32 | /27 |
+| Technicien | 15 | 17 | 2^5 = 32 | /27 |
+| Developpement | 12 | 14 | 2^4 = 16 | /28 |
+
+## Decoupage 
+
 | Pole | Adresse reseau | Broadcast | Plage d'hotes | Masque | Machines | Gaspillage |
 |---|---|---|---|---|---|---|
 | Informatique | 172.16.1.0 | 172.16.1.63 | .1 -> .62 | /26 | 50 / 62 | 12 |
