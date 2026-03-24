@@ -1,5 +1,5 @@
 
-# Sous-réseautage IPv4 -Société fictive à 4 pôles
+# Sous-réseautage IPv4 - Société fictive à 4 pôles
 
 **Réseau de base :** `172.16.1.0/24`
 
